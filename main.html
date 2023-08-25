@@ -10,7 +10,25 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	    <form method="post">
+        <label for="name">Name</label> <input placeholder="Name" type="text" id="name" required> <br>
+        <label for="email">Email</label> <input type="email"  placeholder="Email" id="email"  required> <br>
+        <label for="gender_m">male</label> <input type="radio" required id="gender_m"  name="gender">
+        <label for="gender_f">female</label> <input required type="radio" id="gender_f" name="gender" > <br>
+        <label for="laptop">Laptop Brands</label>  
+        <select required name="" id="laptop" aria-placeholder ="--Please choose an option--">
+            <option value="">--Please choose an option--</option>
+            <option value="">Apple</option>
+            <option value="">Asus</option>
+            <option value="">Hp</option>
+        </select> <br>
+        <label for="age">Age</label> <input placeholder="Age" required type="number" id="age"  > <br>
+        <label for="dob">Date of Birth</label> <input required type="date" id="dob"  > <br>
+        <label for="password">Password</label> <input required type="password" id="password"  > <br>
+        <label for="portfolio">Portfolio URL</label> <input type="url" id="portfolio"> <br>
+        <button type="submit"> submit</button>
 
+    </form>
 </body>
 
 </html>
